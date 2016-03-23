@@ -1,3 +1,8 @@
+This file is a simple Arch Linux instalation guide to help the community. For more information you must go to the archlinux.org and read the beguinner's guide section.
+
+I must point out that all the arrows (->) in the right side of a code line is a description.
+
+
 root@archiso ~#
 
 Internet connection
@@ -100,7 +105,7 @@ Chroot
 	# ln -s /usr/share/zoneinfo/Brazil/East > /etc/localtime
 	# hwclock --systohc --utc
 
-	# excho 'hostname' > /etc/hostname
+	# excho 'your_hostname' > /etc/hostname
 
 Enabling multilib and AUR comunity repositories
 
@@ -120,8 +125,8 @@ Instal yaourt
 Root an user
 
 	# passwd
-	# useradd -m -g users -G wheel,storage,power -s /bin/bash 'nome_de_usuario'
-	# passwd 'nome_de_usuario'
+	# useradd -m -g users -G wheel,storage,power -s /bin/bash 'your_user_name'
+	# passwd 'your_user_name'
 	# EDITOR=nano visudo
 		uncomment:	%wheel ALL=(ALL)ALL
 		add:		Defaults rootpw
