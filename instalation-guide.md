@@ -1,6 +1,7 @@
 root@archiso ~#
 
 Internet connection
+
 Wifi
 
 	# wifi-menu
