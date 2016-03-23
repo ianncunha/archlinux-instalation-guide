@@ -1,8 +1,16 @@
 root@archiso ~#
 
 Internet connection
+Wifi
 
 	# wifi-menu
+	# ping -c 3 google.com
+
+No Wifi
+
+	# ip link
+	# sudo ip link set interface up
+	# sudo systemctl enable dhcpcd@interface.service
 	# ping -c 3 google.com
 
 Verifying EFI
@@ -147,11 +155,9 @@ Wifi-Menu
 
 Interface and Desktop environment
 
-Internet connection (no wifi)
+Internet connection
 
-	$ ip link
-	$ sudo ip link set interface up
-	$ sudo systemctl enable dhcpcd@interface.service
+	$ ping -c 3 google.com
 
 Touchpad support
 
