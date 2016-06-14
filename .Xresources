@@ -85,3 +85,9 @@ XTerm*foreground     : _foreground
 XTerm*background     : _background
 XTerm*cursorColor    : _cursorColor
 xterm*borderWidth    : 0
+
+rofi.color-enable: true
+rofi.color-window: #2f343f, #2f343f, #1e2529
+rofi.color-normal: #2f343f, #f3f4f4, #2f343f, #424751, #ffffff
+rofi.color-active: #2f343f, #80cbc4, #2f343f, #394249, #80cbc4
+fori.color-urgent: #2f343f, #ff1844, #2f343f, #394249, #ff1844
