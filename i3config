@@ -19,7 +19,7 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 # needs rofi
-bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 310 -opacity "85" -bw 0 -bc"$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 13"
+bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 310 -opacity "85" -font "System San Francisco Display 13"
 
 # change focus
 bindsym $mod+j focus left
